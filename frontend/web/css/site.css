@@ -1,0 +1,234 @@
+html,
+body {
+    height: 100%;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.text-red {
+    color: #cc0000;
+}
+
+a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:hover{
+	color: #d40202;
+}
+
+.toolbar{
+	margin-top:51px;
+	width:50px;
+	background: #f8f8f8;
+	height: 100%;
+    position: fixed;
+	border-right: #ddd solid 1px;
+}
+
+.toolbar .nav > li{
+	border-bottom: #e7e7e7 solid 1px;
+}
+
+.toolbar .nav > li a{
+	padding: 15px 17px;
+	color: #cc0000;
+}
+
+
+.navbar-default .navbar-brand{
+	color:#d40202;
+	font-weight:bold;
+	font-size: 22px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color:#bb1111;
+}
+
+.page-header{
+	color: #cc0000;
+	border-bottom: 1px solid #cc0000;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #d40202;
+    border-color: #fff;
+}
+
+.float30{
+	float: left;
+	width:30%;
+	line-height: 32PX;
+	
+}
+
+.float70{
+	float: left;
+	width:70%;
+	
+}
+
+.signup_right{
+	margin:50px;
+	border-left: 1px solid #e4e4e4;
+	padding-left:50px;
+	padding-top:20px;
+	height:180px;
+}
+
+.reset_right{
+	margin:130px 0px 0px 0px;
+	border-left: 1px solid #e4e4e4;
+	padding-left:50px;
+	padding-top:20px;
+	height:180px;
+}
+
+.user_signout {
+    float: right;
+	margin-top: 15px;
+    margin-bottom: 15px;
+	margin-left: 28px;
+    padding: 0px 10px 0px 10px;
+}
+
+.user_info {
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-left: #cccccc solid 1px;
+    padding: 0px 10px 0px 10px;
+}
+
+.gmap{
+	border: #cccccc solid 1px;
+	padding: 2px;
+}
+
+.checkboxcorner{
+	position:absolute;
+	margin:5px;
+	z-index:2px;
+	background:#FFF;
+	box-shadow:1px 1px rgba(0,0,0,.2);
+	padding-bottom:1px;
+	padding-right:4px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
